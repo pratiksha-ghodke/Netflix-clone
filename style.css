@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(images/Background_img.jpg);
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+    height: 110vh;
+    position: relative;
+}
+.main .box{
+    height: 110vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: rgb(23, 23, 23);
+    top: 0;
+    position: absolute;
+}
+nav{
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+    padding-top: 3.5rem;
+    height: 62px;
+}
+nav img{
+    color: red;
+    position: relative;
+    z-index: 1;
+}
+nav .btns{
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+}
+nav button{
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    background-color: red;
+    height: 60px;
+    width:10rem;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: 4px solid black;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: rgb(182, 7, 7);
+}
+nav select{
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    background:transparent;
+    height: 60px;
+    width: 10rem;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: 4px solid black;
+    border-radius: 8px;
+}
+nav select option{
+    color: black;
+}
+.main-content{
+    color: #fff;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    font-family: "Martel Sans", sans-serif;
+}
+.main-content span h1{
+    font-weight: 900;
+    font-size:90px;
+    gap: 23px;
+    text-align: center;
+}
+.main-content span h2{
+    font-size:60px;
+    gap: 23px;
+    text-align: center;
+}
+.main-content span h3{
+    font-size:40px;
+    gap: 23px;
+    text-align: center;
+}
+.content{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+input{
+    height: 60px;
+    width: 550px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: 4px solid black;
+    border-radius: 8px;
+    padding: 10px 10px;
+    background: transparent;
+}
+.btn{
+    color: #fff;
+    background-color: red;
+    height: 90px;
+    width:300px;
+    padding: 10px 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: 4px solid black;
+    border-radius: 8px;
+}
+.separation{
+    height: 20px;
+    /* width: 100%; */
+    background-color: gray;
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-family: "Martel Sans", sans-serif;
+    gap: 30px;
+}
+.container{
+    color: #fff;
+    border: 3px solid white;
+    height: 150px;
+    width: 550px;
+    padding:10px 20px;
+    border-radius: 20px;
+    position: relative;
+    left: 150px;
+    bottom: 240px;
+    background-color: black;
+}
+.content1{
+    position: relative;
+    bottom: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: 200;
+    /* border: 2px solid white; */
+    color: #fff;
+}
+
+.main2-content{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+.main2-content span h1{
+    font-weight: bolder;
+    font-size:100px;
+}
+.main2-content span{
+    font-weight: bolder;
+    font-size:50px;
+}
+.images1{
+    z-index: 100;
+    position: relative;
+}
+.main2-img{
+    position: relative;
+}
+.vid1{
+    position: absolute;
+    top: -30px;
+    left: 120px;
+    object-fit: contain;
+}
+.main3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-family: "Martel Sans", sans-serif;
+    gap: 30px;
+}
+.main3-img{
+    position: relative;
+}
+.vid2{
+    position: absolute;
+    top: -135px;
+    left: 180px;
+    object-fit: contain;
+}
+
+.faq{
+    color: #fff;
+    height: 80%;
+    padding:90px ;
+    font-family: "Martel Sans", sans-serif;
+}
+.faq h1{
+    font-weight: 900;
+    font-size:90px;
+    text-align: center;
+}
+.faq-container h3{
+    font-size: 40px;
+    text-align: center;
+    padding: 30px ;
+}
+.faqbox{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: rgb(42, 40, 40);
+    font-size:40px;
+    padding: 50px;
+    max-width: 70vw;
+    margin: 34px auto;
+}
+
+.faq-content{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.faq-content input{
+    border-color: #fff;
+}
+footer{
+    color: #fff;
+    height: 80%;
+    padding:90px ;
+    font-family: "Martel Sans", sans-serif;
+}
+footer span{
+    color: #fff;
+    padding: auto;
+    font-size: 40px;
+    margin: 40px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 60px;
+    color: #fff;
+}
+.footer-content li{
+    list-style: none;
+}
+.footer-content li a{
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content select
+{
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    background:transparent;
+    height: 60px;
+    width: 200px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: 4px solid white;
+    border-radius: 8px;
+}
+
